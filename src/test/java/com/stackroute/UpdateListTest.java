@@ -1,8 +1,10 @@
+package com.stackroute;
 import org.junit.Test;
 import java.util.ArrayList;
 import java.util.List;
 import java.lang.String;
 import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.*;
 public class UpdateListTest {
     List<String> list=new ArrayList<>();
     UpdateList updateList=new UpdateList();
